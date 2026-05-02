@@ -1,0 +1,13 @@
+[project]
+name = "cyhacl"
+version = "0.1.0"
+description = "Cython bindings for Hacl-Star. Made for backwards compatability and for use as a c-importable library"
+readme = "README.md"
+authors = [
+    { name = "Vizonex", email = "VizonexBusiness@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "Cython"]
