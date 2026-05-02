@@ -1,0 +1,8 @@
+# Mostly just here to keep things tidy, neat and organized,
+# Please do not play with it. :)
+[extensions]
+files = [
+    {name = "cyhacl.hashlib.sha1", file = "hashlib/sha1.pyx", dep = ["Hacl_Hash_SHA1.c"]},
+    {name = "cyhacl.hashlib.sha2", file = "hashlib/sha2.pyx", dep = ["Hacl_Hash_SHA2.c"]}, 
+    {name = "cyhacl.hashlib.__init__", file = "hashlib/__init__.pyx", dep = []}, 
+]
